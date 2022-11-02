@@ -36,7 +36,7 @@ export class PlunkService {
       })
     );
     return {
-      hits: (data.hits || []).map((res) => ({
+      hits: data.hits!.map((res) => ({
         address: camelifyObject(res.address),
       })),
     };
