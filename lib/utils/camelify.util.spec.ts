@@ -15,7 +15,7 @@ describe('camelify', () => {
       value_dollars: 2340613,
       parcel_id: 'd1d848bc-7e8d-585a-8a97-03313892a959',
     };
-    const expetedObj = {
+    const expectedObj = {
       appreciationPerSecond: 0.03204034391534392,
       valueDate: '2022-10-08',
       valueDollars: 2340613,
@@ -26,6 +26,6 @@ describe('camelify', () => {
     Object.keys(obj).forEach((key) => {
       expect(camelifyStringSpy).toHaveBeenCalledWith(key);
     });
-    expect(result).toEqual(expetedObj);
+    expect(result).toEqual(expectedObj);
   });
 });
