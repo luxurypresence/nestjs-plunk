@@ -1,8 +1,11 @@
 {
   "name": "@luxury-presence/nestjs-plunk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plunk module for Nest based on the plunk api package.",
-  "keywords": ["nestjs", "plunk"],
+  "keywords": [
+    "nestjs",
+    "plunk"
+  ],
   "author": "Luxury Presence",
   "license": "MIT",
   "scripts": {
