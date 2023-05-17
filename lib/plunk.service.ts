@@ -42,7 +42,9 @@ export class PlunkService {
     };
   }
 
-  async getHomeValuationByParcelId(parcelId: string): Promise<Valuation> {
+  async getHomeValuationByParcelId(
+    parcelId: string
+  ): Promise<Valuation | never> {
     const { data } = await firstValueFrom(
       this.httpService.get(`${PLUNK_HOME_VALUATION_URL}/${parcelId}`, {
         ...this.requestOptions,
