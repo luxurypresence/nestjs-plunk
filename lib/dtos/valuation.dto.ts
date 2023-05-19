@@ -1,6 +1,6 @@
 export class Valuation {
-  appreciationPerSecond: number;
-  valueDate: string;
-  valueDollars: number;
   parcelId: string;
+  valuationDollars: number;
+  valuationTimestamp: string;
+  appreciationPerSecond: number;
 }
