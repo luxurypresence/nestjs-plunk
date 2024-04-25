@@ -24,19 +24,19 @@
     "prepare": "husky install"
   },
   "peerDependencies": {
-    "@nestjs/axios": "^0.1.0",
-    "@nestjs/common": "^8.0.0 || ^9.0.0",
+    "@nestjs/axios": "^3.0.0",
+    "@nestjs/common": "^10.0.0",
     "rxjs": "^7.2.0"
   },
   "devDependencies": {
-    "@nestjs/axios": "^0.1.0",
-    "@nestjs/common": "9.1.6",
-    "@nestjs/testing": "^9.1.6",
+    "@nestjs/axios": "^3.0.2",
+    "@nestjs/common": "10.3.8",
+    "@nestjs/testing": "^10.3.8",
     "@types/jest": "^29.2.1",
     "@types/node": "18.11.7",
     "@typescript-eslint/eslint-plugin": "5.41.0",
     "@typescript-eslint/parser": "5.41.0",
-    "axios": "0.27.2",
+    "axios": "1.6.8",
     "eslint": "8.26.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
